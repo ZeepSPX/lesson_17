@@ -368,7 +368,7 @@ body {
 @media (max-width: 1001px) {
 	.body-page__title {
 		font-weight: 900;
-		font-size: 64px;
+		font-size: 60px;
 		line-height: 1.1;
 		letter-spacing: 1px;
 	}
@@ -377,7 +377,7 @@ body {
 @media (max-width: 889px) {
 	.body-page__title {
 		font-weight: 900;
-		font-size: 64px;
+		font-size: 55px;
 		line-height: 1;
 		letter-spacing: 1px;
 	}
@@ -386,13 +386,22 @@ body {
 @media (max-width: 780px) {
 	.body-page__title {
 		font-weight: 900;
-		font-size: 64px;
+		font-size: 45px;
 		line-height: 0.9;
 		letter-spacing: 1px;
 	}
 }
 
 @media (max-width: 520px) {
+	.body-page__title {
+		font-weight: 900;
+		font-size: 40px;
+		line-height: 0.8;
+		letter-spacing: 1px;
+	}
+}
+
+@media (max-width: 400px) {
 	.body-page__image {
 		overflow: hidden;
 		opacity: 0;
@@ -400,7 +409,7 @@ body {
 
 	.body-page__title {
 		font-weight: 900;
-		font-size: 64px;
+		font-size: 40px;
 		line-height: 0.8;
 		letter-spacing: 1px;
 	}
